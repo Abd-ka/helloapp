@@ -5,6 +5,9 @@ class Program
     static void Main(string[] args)
     {
         SayHello();
+        greetWhite();
+        greetBlack();
+
     }
 
     static void SayHello()
