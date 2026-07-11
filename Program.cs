@@ -1,14 +1,19 @@
-﻿using System; 
+﻿using System;
 
-class Program 
-{ 
-    static void Main(string[] args) 
-    { 
-        SayHello(); 
-    } 
+class Program
+{
+    static void Main(string[] args)
+    {
+        SayHello();
+    }
 
-    static void SayHello() 
-    { 
-        Console.WriteLine("hello"); 
-    } 
+    static void SayHello()
+    {
+        Console.WriteLine("hello");
+    }
+
+    static void greetWhite()
+    {
+        Console.WriteLine("hello white");
+    }
 }
